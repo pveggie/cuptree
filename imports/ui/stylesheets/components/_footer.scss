@@ -1,0 +1,14 @@
+footer {
+  height: $footer-height;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $green-dark;
+
+  p {
+    color: white;
+    font-size: 0.8em;
+  }
+}

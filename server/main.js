@@ -1,5 +1,6 @@
-import { Meteor } from 'meteor/meteor';
+// import things required to run the server (e.g server dependencies
+// and both dependencies)
 
-Meteor.startup(() => {
-  // code to run on server at startup
-});
+// e.g.
+// import '/imports/startup/server';
+// import '/imports/startup/both';

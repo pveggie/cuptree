@@ -1,0 +1,39 @@
+#main-page-content {
+  height: 100%;
+  margin: 0;
+  // display: flex;
+}
+
+#main-page-info-holder {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+#main-page-info {
+  position: absolute;
+  top: 0.7em;
+  right: 0.7em;
+
+  padding: 10px;
+  width: 40%;
+
+  box-shadow: -1px 1px 1px $gray;
+  background-color: $gray-lighter;
+
+  p {
+    color: $purple-dark;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+  }
+}
+
+
+#main-page-button-holder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
