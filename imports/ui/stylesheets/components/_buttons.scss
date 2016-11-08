@@ -1,9 +1,14 @@
 .button-group-inline {
   display: flex;
   justify-content: center;
+  margin-top: 5em;
+  opacity: 0.8;
 
-  button {
-    margin: 20px;
-    padding: 5px;
+  .btn {
+    margin: 6%;
+  }
+
+  .btn-square {
+    width: 9em;
   }
 }
