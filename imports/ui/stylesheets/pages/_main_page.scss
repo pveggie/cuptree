@@ -1,16 +1,15 @@
-#main-page-content {
+.main-page-content {
   height: 100%;
   margin: 0;
-  // display: flex;
 }
 
-#main-page-info-holder {
+.main-page-info-holder {
   position: relative;
   display: block;
   width: 100%;
 }
 
-#main-page-info {
+.main-page-info {
   position: absolute;
   top: 0.7em;
   right: 0.7em;
@@ -18,7 +17,7 @@
   padding: 10px;
   width: 40%;
 
-  box-shadow: -1px 1px 1px $gray;
+  box-shadow: -1px 1px 1px $off-gray;
   background-color: $gray-lighter;
 
   p {
@@ -29,8 +28,7 @@
   }
 }
 
-
-#main-page-button-holder {
+.main-page-button-holder {
   height: 100%;
   display: flex;
   align-items: center;

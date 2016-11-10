@@ -1,14 +1,19 @@
-.button-group-inline {
+.cup-usage-buttons {
   display: flex;
   justify-content: center;
   margin-top: 5em;
   opacity: 0.8;
 
-  .btn {
-    margin: 6%;
+  .cup-usage-button {
+    margin: 5%;
+
+    background-color: $gray-lighter;
+    border: 5px solid $off-gray;
+    border-radius: 8px;
   }
 
-  .btn-square {
-    width: 9em;
+  img.cup-usage-button {
+    width: 6em;
+    height: 6em;
   }
 }
