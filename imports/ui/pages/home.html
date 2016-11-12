@@ -5,27 +5,31 @@
       </header>
     </div>
 
-    <div class="bg-tree content">
-      <div class="main-page-content">
-
-        <div class="main-page-info-holder">
-          <div class="main-page-info">
-            <p>Cups saved: 5</p>
-            <p>Cups used: 2</p>
-          </div>
-        </div>
-
-        <div class="main-page-button-holder">
-          <div class="cup-usage-buttons">
-            <img src="/images/bin_sample.png" alt="Use disposable cup" class="cup-usage-button">
-            <img src="/images/coffee_cup_sample.png" alt="Use own cup" class="cup-usage-button">
-          </div>
-        </div>
-
-      </div>
-    </div>
+    {{> home}}
 
     <footer>
       <p>&copy; 2016 Gemma Gotch</p>
     </footer>
 </body>
+
+<template name="home">
+  <div class="bg-tree content">
+    <div class="main-page-content">
+
+      <div class="main-page-info-holder">
+        <div class="main-page-info">
+          <p>Cups saved: {{ cuptree.cupsSaved }}</p>
+          <p>Cups used: {{ cuptree.cupsUsed }}</p>
+        </div>
+      </div>
+
+      <div class="main-page-button-holder">
+        <div class="cup-usage-buttons">
+          <img src="/images/bin_sample.png" alt="Use disposable cup" class="cup-usage-button" id="use-cup">
+          <img src="/images/coffee_cup_sample.png" alt="Use own cup" class="cup-usage-button" id="save-cup">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</template>
