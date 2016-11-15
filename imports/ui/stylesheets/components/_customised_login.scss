@@ -1,0 +1,16 @@
+#login-buttons {
+
+  a {
+    color: $green-dark;
+    text-decoration: none;
+  }
+}
+
+#login-dropdown-list {
+  left: unset;
+  top: 40px;
+  right: 0px;
+  z-index: 20;
+
+  margin: 0;
+}

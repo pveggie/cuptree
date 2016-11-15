@@ -1,9 +1,12 @@
-.nav {
+header {
+  // position: fixed;
   height: $header-height;
   padding-left: 1.5em;
+  padding-right: 1.5em;
   margin: 0;
 
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
   outline: 1px solid $green-dark;
